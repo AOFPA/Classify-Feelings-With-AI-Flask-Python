@@ -1,8 +1,6 @@
 from flask import Flask,render_template,request,url_for
 
 import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
 
 from pythainlp.corpus.common import thai_stopwords
 from pythainlp import word_tokenize
